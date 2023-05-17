@@ -50,7 +50,7 @@ class Block:
 class Tetris:
     def __init__(self):
         pygame.init()
-        pygame.display.set_caption("Tetris")
+        pygame.display.set_caption("Tetris-AK")
         self.screen = pygame.display.set_mode((BLOCK_SIZE*BOARD_WIDTH, BLOCK_SIZE*BOARD_HEIGHT))
         self.clock = pygame.time.Clock()
         self.board = [[0] * BOARD_WIDTH for _ in range(BOARD_HEIGHT)]
